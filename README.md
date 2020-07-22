@@ -1,4 +1,6 @@
 # Named_Entity_Recognition_ML_experiments
+
+## Description
 An exploration of machine learning approaches to Named Entity Recognition (NER) including classical classifiers as well as Neural Network (NN) and embedding techniques
 
 This was a portfolio project for a course on Machine Learning for NLP. 
@@ -12,7 +14,7 @@ optimizer = 'adam'
 loss = categorical_crossentropy
 
 
-*************RUN*******************
+## Run
 Run from commandline: 
 
 python .\petercaine_python_program.py 
@@ -27,7 +29,7 @@ embed_file = './GoogleNews-vectors-negative300.bin'
 
 These can also be set inside the petercaine_program.py file in the first section.
 
-***********Alternative Paths**********************
+## Alternative paths
 
 3 possibilites are available:
 user is required to select at prompt (y for embeddings, y for neural net, initals for algorithm)
@@ -50,9 +52,7 @@ pos chunk caps prev_caps short_shape prev_short_shape next_short_shape shape pre
 pos chunk caps prev_caps short_shape prev_short_shape next_short_shape shape prev_shape
 
 
-
-
-*************** Future development ******************
+# Future development
 this code is only designed to work with very specific datasets. In order for code to be more generalisable, it would need to deal with raw text; this would need to be be:
 - tokenised (through spaCy/ CoreNLP tokeniser for example)
 - stripped of any whitespace, linebreak or tab information/metadata (Python string functions)
