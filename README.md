@@ -25,6 +25,7 @@ use arguments to pass in path to:
 - training data; 
 - test data; 
 - embeddings (word2vec GoogleNews-vectors-negative300)
+
 defaults assume everything is stored in local folder. E.g.:
 - train_file = 'reuters-train-tab.en'
 - test_file = 'gold_stripped.conll'
