@@ -1,0 +1,8 @@
+
+
+features used =['token', 'pos', 'chunk', 'stem', 'caps', 'prev_caps', 'short_shape', 'prev_short_shape', 'next_short_shape', 'shape', 'prev_shape']
+predicted_svm.csv O precision 0.991; recall 0.996; f-score 0.993 
+predicted_svm.csv ORG precision 0.837; recall 0.745; f-score 0.788 
+predicted_svm.csv LOC precision 0.871; recall 0.876; f-score 0.873 
+predicted_svm.csv MISC precision 0.884; recall 0.747; f-score 0.81 
+predicted_svm.csv PER precision 0.885; recall 0.945; f-score 0.914 
