@@ -55,14 +55,3 @@ pos chunk caps prev_caps short_shape prev_short_shape next_short_shape shape pre
 - Features are (no user choice involved):
 pos chunk caps prev_caps short_shape prev_short_shape next_short_shape shape prev_shape
 
-
-# Future development
-this code is only designed to work with very specific datasets. In order for code to be more generalisable, it would need to deal with raw text; this would need to be be:
-- tokenised (through spaCy/ CoreNLP tokeniser for example)
-- stripped of any whitespace, linebreak or tab information/metadata (Python string functions)
-- for each token, a pos_tag should be applied (NLP pos_tag) 
-- chunked (NLTK unigram_chunker)
-
-- random sampling should be performed at each step as a measure of human validated quality control
-
-the tuples of token, pos and chunk can then be converted to a dataframe to either publish to csv or begin the feature adding process. 
